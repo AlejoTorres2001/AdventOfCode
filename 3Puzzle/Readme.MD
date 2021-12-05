@@ -35,7 +35,7 @@ then we have to check whether the number of ones is greater than the number of z
         else:
             gamma_rate+="1"
 ```
-**Just for the record, the puzzle does not say anything about a tie, it wasn´t a problem**
+**Just for the record, the puzzle does not say anything about a tie, but in this case it wasn´t a problem**
 
 
 Now we need to get our epsilon,we are going to use our gamma_rate to get it, by just "inverting" the binary number
@@ -70,9 +70,9 @@ The key here is to understand well the "bit criteria" that we are going to use t
 
 *The bit criteria depends on which type of rating value you want to find:*
 
-*To find oxygen generator rating, determine the most common value (0 or 1) in the current bit position, and keep only numbers with that bit in that position. If 0 and 1 are equally common, keep values with a 1 in the position being considered.
+* To find oxygen generator rating, determine the most common value (0 or 1) in the current bit position, and keep only numbers with that bit in that position. If 0 and 1 are equally common, keep values with a 1 in the position being considered.
 
-*To find CO2 scrubber rating, determine the least common value (0 or 1) in the current bit position, and keep only numbers with that bit in that position. If 0 and 1 are equally common, keep values with a 0 in the position being considered.
+* To find CO2 scrubber rating, determine the least common value (0 or 1) in the current bit position, and keep only numbers with that bit in that position. If 0 and 1 are equally common, keep values with a 0 in the position being considered.
 
 Basically we are going to use the same logic as before, but this time filtering out the numbers that don´t match our criteria
 ```python
