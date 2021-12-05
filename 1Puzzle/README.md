@@ -31,12 +31,16 @@ for messures in messurements:
  Finally we need o actually count the times an actual messure is greater than the prev one
  It is important to Point out the fact that numeric_messure WILL be our previous meassurement for our next iteration!
  ```python
- elif numeric_messure > previous:
+ for messures in messurements:
+        numeric_messure= int(messures)
+        if previous == 0:
+            print(f"{numeric_messure}N/A - no previous measurement")
+        elif numeric_messure > previous:
             print(f"{numeric_messure} (Increased)")
             counter +=1 
         elif numeric_messure < previous:
             print(f"{numeric_messure}(Decreased)")
-        previous = numeric_messure 
+        previous = numeric_messure
 ```
 all that last is to print out the counter 
 ```python
