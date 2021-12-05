@@ -35,7 +35,7 @@ then we have to check whether the number of ones is greater than the number of z
         else:
             gamma_rate+="1"
 ```
-**Just for the record, the puzzle does not say anything about a tie, it wasn´t a problem**
+**Just for the record, the puzzle does not say anything about a tie, but in this case it wasn´t a problem**
 
 
 Now we need to get our epsilon,we are going to use our gamma_rate to get it, by just "inverting" the binary number
