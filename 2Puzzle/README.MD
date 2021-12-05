@@ -1,5 +1,5 @@
 # Day 2
-IMO  I've found this puzzle easier than the first one, probably because of python built-in string methods, however this does not mean that it stops being quite a good one to solve.
+**IMO  I've found this puzzle easier than the first one, probably because of python built-in string methods, however this does not mean that it stops being quite a good one to solve.**
 
 Just a quick mention to my go to way for working with the puzzle´s inputs:
 as seen before we are using a .txt file to handle the puzzle´s inputs.
