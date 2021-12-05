@@ -12,7 +12,7 @@ def is_winner(card):
     return False
 
 
-with open("4Puzzle/boards.txt", "r") as file:
+with open("4Puzzle/data.txt", "r") as file:
     calls = [int(number) for number in file.readline().strip('\n').split(',')]
     cards = []
     while file.readline():

@@ -11,7 +11,7 @@ def is_winner(card):
         offset += 1
     return False
 
-with open("4Puzzle/boards.txt", "r") as file:
+with open("4Puzzle/data.txt", "r") as file:
     calls = [int(number) for number in file.readline().strip('\n').split(',')]
     cards = []
     while file.readline():
@@ -25,10 +25,10 @@ with open("4Puzzle/boards.txt", "r") as file:
     while not have_winner:
         number = calls[0]
         calls = calls[1:]
-        for index in range(len(cards)):
-            for i in range(len(cards[index])):
-                if cards[index][i] == number:
-                    cards[index][i] = 100
+        for card in cards:
+            for i in range(len(card)):
+                if card[i] == number:
+                    card[i] = 100
         index = 0
         while index < len(cards):
             if is_winner(cards[index]):
