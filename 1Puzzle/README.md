@@ -1,6 +1,6 @@
 # Day1
 
-**I think it was a good way to start this event.I wouldn't say this particular puzzle was crazy hard. I still think this is NOT the optimal solution but I'm going to share the process that led me to this solution**
+**I think it was a good way to start this event.I wouldn't say this particular puzzle was crazy hard. I still think this is NOT the optimal solution but I'm going to share the process that led me to it**
 
 ## Working with the "raw" data
 
