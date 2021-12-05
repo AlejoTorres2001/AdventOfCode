@@ -56,9 +56,9 @@ aim = 0
 the onle difference is the way the forward command works.As explained in puzzle´s instructions 
 *forward X does two things:*
 
-**It increases your horizontal position by X units.*
+* *It increases your horizontal position by X units.*
 
-**It increases your depth by your aim multiplied by X.*
+* *It increases your depth by your aim multiplied by X.*
 
 ```python
 if "forward" in cmd:
