@@ -15,17 +15,17 @@ with (open("5Puzzle/input.txt","r"))as file:
         start = line[0]
         end = line[1]
         if (start[0] == end[0]):
-            beggining = min(int(start[1]),int(end[1]))
+            beginning = min(int(start[1]),int(end[1]))
             end = max(int(start[1]),int(end[1]))
-            for j in range(beggining,end+1):
+            for j in range(beginning,end+1):
                 if(grid[int(start[0])][j] == '.'):
                     grid[int(start[0])][j] = 1
                 else:
                     grid[int(start[0])][j]+=1
         else:
-            beggining = min(int(start[0]),int(end[0]))
+            beginning = min(int(start[0]),int(end[0]))
             end = max(int(start[0]),int(end[0]))
-            for i in range(beggining,end+1):
+            for i in range(beginning,end+1):
                 if(grid[i][int(start[1])] =='.'):
                     grid[i][int(start[1])] = 1
                 else:
