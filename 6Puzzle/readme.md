@@ -12,7 +12,9 @@ with open("6Puzzle/input.txt", "r") as file:
     ages = [int(number) for number in ages if number != ',']
 ```
 then we are going to repeat the entire process for every day  
+```python
 for day in range(1, 81):
+```
 we are going to iterate through the list of ages first checking if we have a 0 days fish (wich means is ready to spawn a freshly new one) , in this case we will append his child at the end of our list
 ```python
 for day in range(1, 81):
