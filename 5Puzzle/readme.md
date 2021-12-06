@@ -97,7 +97,7 @@ for line in Lines:
   * we can have diagonals with a positive slope (means it points upwards)
   
   * or we can have them with negative slopes (the line points downwards)
-  * 
+  
  *We DON'T need to filter the lines at first*
  
  we are going to rearrange the end and start according to who is bigger this way we will be able to use them in the range function as seen before
