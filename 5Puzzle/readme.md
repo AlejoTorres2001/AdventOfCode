@@ -94,7 +94,7 @@ for line in Lines:
   ## Second Part!
   **I found it slightly tricky to understand the behavior of diagonal lines**
   
-  * we can have diagonals with a positive slope (means the pint upwards)
+  * we can have diagonals with a positive slope (means it points upwards)
   
   * or we can have them with negative slopes (the line points downwards)
   * 
