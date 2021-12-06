@@ -2,7 +2,7 @@
 **Have you ever seen a lantern fish in person?  I didn't, guess I will have to settle with this image**
 ![lanternfish](http://www.seasky.org/deep-sea/assets/images/lanternfish-se41.jpg)
 
-I found myself in my comfort zone with part 1, things fall off from conventional in part 2, at least if you are like me and don't have much experience  in the field of data science and exponential distributions
+I found myself in my comfort zone with part 1 but things fall off from conventional in part 2, at least if you are like me and don't have much experience  in the field of data science and exponential distributions
 
 for reading the input data y opted for a list
 
