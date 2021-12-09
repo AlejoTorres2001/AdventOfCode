@@ -18,5 +18,3 @@ for i in range(len(grid)):
         if is_low_point:
             risk_levels.append(grid[i][j]+1)
 print(sum(risk_levels))
-
-# if (i==0 and j==0) or (i==0 and j==len(grid[0])-1) or (i== len(grid)-1 and j==0) or (i== len(grid)-1 and j==len(grid[0])-1): #corners
