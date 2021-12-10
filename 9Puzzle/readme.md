@@ -57,9 +57,9 @@ so we need and algorithm that will find all the basins in our grid,I opted for u
 
 *things to keep in mind*
 
-**we don't have to re-visit points*
+* *we don't have to re-visit points*
 
-**9 will be our boundaries to separate each basin*
+* *9 will be our boundaries to separate each basin*
 
 instead of caring about the risk level, we are going to store the cords of the low_points 
 
