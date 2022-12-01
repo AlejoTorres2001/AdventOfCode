@@ -9,8 +9,9 @@ in this case, we are dealing with a simple linear data structure, It might be tr
 we start by reading the whole files, dumping each line inside an array.
 
 ```python
- with open('./data.txt', 'r') as input:
-        data = input.readlines()
+def get_elfs_items():
+  with open('./data.txt', 'r') as input:
+    data = input.readlines()
 ```
 
 As I said we will look for those empty lines to break the input into chunks, so we can process each chunk independently (elf items)
@@ -24,8 +25,6 @@ As I said we will look for those empty lines to break the input into chunks, so 
             elf.append(int(line.replace('\n', '')))
 ```
 we are iterating through the array and if we find an empty line we append the sum of the current elf to the elfs array
-
-```
 
 finally, we just need the max out of them 
   
