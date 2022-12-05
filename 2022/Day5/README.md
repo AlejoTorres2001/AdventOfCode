@@ -20,7 +20,7 @@ our first helper function ````get_stacks````  will take the data and return a li
 
 now we know how many stacks we have to build
 
-```` quick side note: As I'm writing this and going through the code I realized that maybe it is a bit redundant to know the sort of *id* of every stack, ni this exercise in particular, but as always I try to speed-run this challenges so not the cleanest solution out there for sure````
+```` quick side note: As I'm writing this and going through the code I realized that maybe it is a bit redundant to know the sort of *id* of every stack, in this exercise in particular, but as always I try to speed-run this challenges so not the cleanest solution out there for sure````
 
 ```python
 def get_stacks(data):
