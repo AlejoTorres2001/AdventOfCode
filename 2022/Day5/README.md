@@ -77,7 +77,7 @@ def parse_indications(indications_data):
 
 the first part is solved!!
 
-Now to the actual ED logic, the idicantions are used to move creates between stacks, in this case we can only move one create at the time.
+Now to the actual ED logic, the indications are used to move creates between stacks, in this case we can only move one create at the time.
 
 we are going to our dictionary of stacks and the indication and extract the data we need to move the creates. to do the actual moving part will do a range loop to simulate the  "one at the time" restriction while popping the creates from the stack we are moving from and inserting them into the stack we are moving to. remember that we are using a list to represent the stack so we will use the ```.insert()``` method with an index of 0 to insert the creates at the top of the stack.
 
