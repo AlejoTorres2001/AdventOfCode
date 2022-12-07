@@ -1,4 +1,3 @@
-# write a data class for nodes of a graph with weight
 class Node :
     def __init__(self, name, weight,to_nodes=[],from_node=None):
         self.name = name
