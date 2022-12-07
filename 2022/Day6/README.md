@@ -10,7 +10,7 @@ regarding the data parsing, there isn't anything fancy, just get the entire stre
 data:list[str] = [line.removesuffix('\n') for line in input.readlines()]
 ```
 
-We are looking for a pattern inside the stream of data. the first 4 consecutive characters sequence that dont repeat themselves, the answer is the number of characters after that sequence.
+We are looking for a pattern inside the stream of data. the first 4 consecutive characters sequence that don't repeat themselves, the answer is the number of characters after that sequence.
 
 Let's iterate through the data stream and then over each character in it, in this case we are assuming there might be multiple data streams.
 
