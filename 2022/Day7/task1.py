@@ -24,7 +24,7 @@ def get_directive(line_content):
   if line_content[0] != '$' and line_content[0] != 'dir':
     return 'READ_DIR'
 
-def add_weights(graph:list):
+def update_weights(graph:list):
   for node in graph[::-1]:
     for node_to in node.to_nodes:
       node.weight += node_to.weight
@@ -62,7 +62,7 @@ if __name__ == "__main__":
   graph = []
   data = get_data()
   build_graph(data,graph)
-  add_weights(graph)
+  update_weights(graph)
   for node in graph:
     print(node)
   print(sum_weights(graph))

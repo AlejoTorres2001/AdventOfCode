@@ -1,4 +1,5 @@
-from task1 import get_data,build_graph,add_weights,Node
+from task1 import get_data,build_graph,update_weights
+
 TOTAL_DISK_SIZE=70000000
 UPDATE_SIZE=30000000
 
@@ -12,6 +13,6 @@ if __name__ == "__main__":
   graph = []
   data = get_data() 
   build_graph(data,graph)
-  add_weights(graph)
+  update_weights(graph)
   
   print(find_node(graph))
