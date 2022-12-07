@@ -2,9 +2,9 @@
 
 ## Part 1
 
-I would say I've found this challenge easier than the previous one.
+I have to say I've found this challenge easier than the previous one.
 
-regarding the data parsing there isn't anything fancy, just get the entire stream removing the EOL characters.
+regarding the data parsing, there isn't anything fancy, just get the entire stream removing the EOL characters.
 
 ```python
 data:list[str] = [line.removesuffix('\n') for line in input.readlines()]
@@ -20,7 +20,7 @@ for buffer in data:
     for index,char in enumerate(buffer):
 ```
 
-We are going to construct a partial buffer result of of the following condition:
+We are going to construct a partial buffer result out of the following condition:
   
   ```python
   partial_buffer = partial_buffer[1:] + "".join(buffer[index]) if len(partial_buffer) % 4 == 0 else partial_buffer + "".join(buffer[index])
